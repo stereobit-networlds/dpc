@@ -1,0 +1,2 @@
+Simply create directory for banners, 'banners' by default. Drop all banner files in there. Then use <img src="<?=BannerR::rotate()?>"> wherever you want your banner placed.
+Future version will let you specify directory to pick banners from, so that you can separate banners with different sizes. Also, support for "show-count" will be added, so each banner will be shown given amount of times.

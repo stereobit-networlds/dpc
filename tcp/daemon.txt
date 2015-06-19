@@ -1,0 +1,23 @@
+README file for the daemon class:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I'm assuming that you have the skill to install the script and read through its sources. All that I'm going to offer here, is some little instructions on how you can use this script.
+
+This program needs a PHP interpreter compiled with the --enable-sockets option.
+
+If you needed to write an app that wants to use a simple command based protocol over the network (like FTP) you can use this daemon. The implementation part should be understandable from the test script provided herewith.
+
+To run the daemon, you need the CGI/CLI version of the php interpreter. I wrote this script on Debian GNU/Linux and am assuming that you've put your PHP binary in the place where the standard php4-cgi debian package puts it. (ie., /usr/lib/cgi-bin/php4).
+
+If the program starts up successfully, you can try telnetting to port 19123 (thats where the sample script starts listening) as following:
+
+$ telnet 127.0.0.1 19123
+GNUPHPtial daemon (0.0.1b) (Debian GNU/Linux)
+foo> _
+
+That is the prompt, you can type in various things there. HELP should show the list of valid commands.
+
+HaPHPy Hacking!
+
+  -Suraj
+   suraj@chennailug.org

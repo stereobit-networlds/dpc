@@ -3,7 +3,7 @@
 /* 
  * distributed php classes
  *
- *   Copyright (C) 2014  Alexiou Vassilis, ste.net
+ *   2014  Alexiou Vassilis, ste.net
  *
  *   This library is free software; you can redistribute it and/or
  *   modify it under the terms of the GNU Library General Public
